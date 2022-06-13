@@ -1,69 +1,59 @@
 {
-  "name": "pack-mod",
-  "title": "모듈 이름",
-  "description": "모듈 설명",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "authors": [
-    {
-      "name": "만든이 이름"
-    }
-  ],
-   "packs": [
+    "name": "pack-mod",
+    "title": "pack-mod",
+    "description": "Saltvocksa",
+    "version": "0.1",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9.235",
+    "authors": [
         {
-            "name": "module-creatures",
-            "label": "Module Creatures",
-            "path": "./packs/creatures.db",
-            "entity": "Actor",
+            "name": "salt",
+        }
+    ],
+    "packs": [
+        {
+            "name": "vocksaactor",
+            "label": "vocksaactor",
+            "path": "./packs/vocksaactor.db",
             "type": "Actor"
         },
         {
-            "name": "module-items",
-            "label": "Module Items",
-            "path": "./packs/items.db",
-            "entity": "Item",
+            "name": "vocksamagic",
+            "label": "vocksamagic",
+            "path": "./packs/vocksamagic.db",
             "type": "Item"
         },
         {
-            "name": "module-scenes",
-            "label": "Module Scenes",
-            "path": "./packs/scenes.db",
-            "entity": "Scene",
-            "type": "Scene"
+            "name": "vocksaaction",
+            "label": "vocksaaction",
+            "path": "./packs/vocksaaction.db",
+            "type": "Item"
         },
         {
-            "name": "module-journal-entries",
-            "label": "Module Journal Entries",
-            "path": "./packs/journal-entries.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
+            "name": "vocksaancestr",
+            "label": "vocksaancestr",
+            "path": "./packs/vocksaancestr.db",
+            "type": "Item"
         },
         {
-            "name": "module-macros",
-            "label": "Module Macros",
-            "path": "./packs/macros.db",
-            "entity": "Macro",
-            "type": "Macro"
+            "name": "vocksabackg",
+            "label": "vocksabackg",
+            "path": "./packs/vocksabackg.db",
+            "type": "Item"
         },
         {
-            "name": "module-roll-tables",
-            "label": "Module Roll Tables",
-            "path": "./packs/roll-tables.db",
-            "entity": "RollTable",
-            "type": "RollTable"
+            "name": "vocksafeats",
+            "label": "vocksafeats",
+            "path": "./packs/vocksafeats.db",
+            "type": "Item"
         },
         {
-            "name": "module-playlists",
-            "label": "Module Playlists",
-            "path": "./packs/playlists.db",
-            "entity": "Playlist",
-            "type": "Playlist"
+            "name": "vocksaitem",
+            "label": "vocksaitem",
+            "path": "./packs/vocksaitem.db",
+            "type": "Item"
         }
-    ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced"
+    ]
 }
