@@ -30,30 +30,56 @@
             "label": "vocksaaction",
             "path": "./packs/vocksaaction.db",
             "type": "Item"
-        },
-        {
+        },        {
             "name": "vocksaancestr",
             "label": "vocksaancestr",
             "path": "./packs/vocksaancestr.db",
             "type": "Item"
-        },
-        {
+        },        {
             "name": "vocksabackg",
             "label": "vocksabackg",
             "path": "./packs/vocksabackg.db",
             "type": "Item"
-        },
-        {
+        },        {
             "name": "vocksafeats",
             "label": "vocksafeats",
             "path": "./packs/vocksafeats.db",
             "type": "Item"
-        },
-        {
+        },        {
             "name": "vocksaitem",
             "label": "vocksaitem",
             "path": "./packs/vocksaitem.db",
             "type": "Item"
+        },
+        {
+            "name": "module-scenes",
+            "label": "Module Scenes",
+            "path": "./packs/scenes.db",
+            "type": "Scene"
+        },
+        {
+            "name": "module-journal-entries",
+            "label": "Module Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "module-macros",
+            "label": "Module Macros",
+            "path": "./packs/macros.db",
+            "type": "Macro"
+        },
+        {
+            "name": "module-roll-tables",
+            "label": "Module Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "type": "RollTable"
+        },
+        {
+            "name": "module-playlists",
+            "label": "Module Playlists",
+            "path": "./packs/playlists.db",
+            "type": "Playlist"
         }
     ]
 }
